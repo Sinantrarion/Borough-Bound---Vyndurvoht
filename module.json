@@ -1,0 +1,64 @@
+{
+    "name": "Borough Bound - Vyndurvoht",
+    "title": "Borough Bound - Vyndurvoht",
+    "description": "<p>This module provides the Vyndurvoht adventure module by Borough Bound. All maps are pre-configured with walls and lighting to be game-ready, so you can jump right in to use them for your next adventure.</p>",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.5.0",
+    "compatibleCoreVersion": "0.9.0",
+    "author": "Borough Bound",
+	 
+  "dependencies": [
+    {
+    "name": "pdfoundry",
+    "version": "0.8.10",
+    "manifest": "https://raw.githubusercontent.com/Djphoenix719/PDFoundry/master/module.json"
+    },
+	{
+  "name": "lib-wrapper",
+  "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json"
+	},
+	{
+  "name": "levels",
+  "manifest": "https://github.com/theripper93/Levels/releases/latest/download/module.json"
+	},
+	{
+  "name": "wall-height",
+  "manifest": "https://raw.githubusercontent.com/erithtotl/FVTT-Wall-Height/master/module.json"
+	}
+  ],
+    "packs": [
+    {
+      "label": "Vyndurvoht - Scenes",
+      "entity": "Scene",
+      "name": "scenes",
+      "path": "packs/maps.db"
+    },
+	    {
+      "label": "Vyndurvoht - NPC's",
+      "entity": "Actor",
+      "name": "actors",
+      "path": "packs/tokens.db"
+    },
+	    {
+      "label": "Vyndurvoht - Playlists",
+      "entity": "Playlist",
+      "name": "playlist",
+      "path": "packs/playlist.db"
+    },
+		    {
+      "name": "journal",
+      "label": "Vyndurvoht - Journal",
+      "path": "packs/journal.db",
+      "entity": "JournalEntry"
+    }
+    ],
+"media": [
+  {
+    "type": "cover",
+    "url": ""
+  }
+     ],
+    "url": "https://www.patreon.com/boroughbound/",
+    "manifest": "https://www.dropbox.com/s/0e8wbxs2x5lfg3l/module.json?dl=1",
+    "download": "https://www.dropbox.com/s/ft0hd13w6tbgkhp/BB-Vyndurvoht.zip?dl=1"
+}
